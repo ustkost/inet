@@ -16,7 +16,7 @@ const NetworkRow: React.FC<NetworkRowProps> = ({ network }) => {
         <TableRow
           className={cn(
             "cursor-pointer",
-            // "hover:bg-sky-100 transition-all", // uncomment on production
+            "hover:bg-sky-100 transition-all", // uncomment on production
             network.connected && "bg-sky-50/75",
           )}
         >

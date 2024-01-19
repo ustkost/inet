@@ -15,7 +15,7 @@ const RefreshNetworks = () => {
 
   return (
     <div onClick={onClick} className="ml-10 mb-6 cursor-pointer">
-      <IoMdRefresh size={65} />
+      <IoMdRefresh size={65} className="hover:text-gray-900" />
     </div>
   );
 };

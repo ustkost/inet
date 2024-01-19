@@ -81,7 +81,7 @@ const NetworkDialog: React.FC<NetworkDialogProps> = ({ network }) => {
           onClick={onClick}
         >
           {isLoading ? (
-            <Grid size={20} />
+            <Grid height={20} width={20} />
           ) : network.connected ? (
             "отключиться"
           ) : (
